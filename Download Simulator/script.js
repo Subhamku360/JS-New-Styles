@@ -48,7 +48,7 @@ startbtn.addEventListener("click",function()
     {
         clearInterval(timer);
         count=0;
-        cardHeading.textContent="Downloading Stop and Resetted ";
+        cardHeading.textContent="Downloading Stop and Reset ";
         startbtn.disabled = false;
         startbtn.style.opacity=1;
         progressBar.style.width=`${count}%`;
