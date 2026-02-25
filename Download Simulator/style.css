@@ -1,0 +1,151 @@
+
+@font-face {
+    font-family:"zolla";
+    src: url(./zolla/Zolla.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"zolla";
+
+}
+
+
+
+html,body{
+    /* height: 100%;
+    width: 100%; */
+    background-color: #ffffff;
+
+    background-size: contain;
+    background-size: 400px;
+    background-position-y: 90%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "hago";
+    src: url(./hago-unique-sans-font/WOFF/Hago-Regular.woff);
+}
+@font-face {
+    font-family: "babe";
+    src: url(./babe/babe.ttf);
+}
+
+#parent{
+    transition: all 0.2s linear;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+    gap: 5rem;
+
+    h1{
+        justify-self: start;
+        font-weight: 300;
+        font-size: clamp(2.5rem, 8vw, 5rem);
+    }
+    p{
+        text-align: center;
+        color: #e58746;
+        font-size: clamp(1.5rem, 2vw, 2.5rem);
+    }
+
+    .fade-out {
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    #downloadCard{
+        width: 90%;
+        max-width: 600px;
+        background-color: #271a39;
+        border-radius: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 2rem;
+        .progress{
+            height: 20px;
+            width:90%;
+            background-color: #c7c7c1;
+            border-radius: 2rem;
+            overflow: hidden;
+            .totalprogress{
+                transition: all 0.5s linear;
+                height: 100%;
+                width: 0%;
+                background-image: url("./gradient-1772045531194.png");
+                background-size: cover;
+
+            }
+        }
+        .heading{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            h2{
+                font-size: 1.8rem;
+                font-family:"hago";
+                color:#fafbf3;
+                font-weight: 100;
+            }
+            h3{
+                font-size: 1rem;
+                font-family:"hago";
+                color:#fafbf3;
+                font-weight: 100;
+
+                .percentage{
+                    font-family:"hago";
+                }
+            }
+
+
+        }
+        .button{
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+
+
+            button{
+                padding: .5rem 2rem;
+                font-size: 1rem;
+                background-color: #fafbf3;
+                color:#000000;
+                font-family:"hago";
+                cursor: pointer;
+                transition: 0.2s ease;
+                border-radius: 1rem;
+                &:active{
+                    scale: 0.95;
+                }
+            }
+        }
+    }
+}
+/* Mobile */
+@media (max-width: 480px) {
+    #downloadCard {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    .heading h2 {
+        font-size: 1.4rem;
+    }
+
+    .heading h3 {
+        font-size: 0.9rem;
+    }
+}
