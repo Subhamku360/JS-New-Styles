@@ -1,11 +1,15 @@
-# Download Simulator
+# JS-New-Styles
 
-This repository hosts the **Download Simulator** project using GitHub Pages.
+This repository hosts multiple projects with GitHub Pages.
 
-## Live Access Link
+## Projects
 
-https://subhamku360.github.io/JS-New-Styles/Download%20Simulator/
+### Download Simulator
+Folder: `Download Simulator/`  
+Live Link: https://subhamku360.github.io/JS-New-Styles/Download%20Simulator/
 
-## Project Folder
+## Template For New Project
 
-`Download Simulator/`
+### `<Folder Name>`
+Folder: `<Folder Name>/`  
+Live Link: `https://subhamku360.github.io/JS-New-Styles/<Folder%20Name>/`
