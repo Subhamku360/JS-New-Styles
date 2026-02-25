@@ -9,7 +9,7 @@ Folder: `Download Simulator/`
 Live Link: https://subhamku360.github.io/JS-New-Styles/Download%20Simulator/
 Screenshot:  
 
-<p align="center">
+<p align="start">
   <img src="./Download%20Simulator/screenshot.png" width="500" style="border-radius:10px;" />
 </p>
 
