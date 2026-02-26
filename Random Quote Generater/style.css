@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "aloreta";
+    src: url(./Fonts/Aloreta-Marthin-Font/Aloreta\ Marthin.otf);
+}
+
+@font-face {
+    font-family: "Archare";
+    src: url(./Fonts/Archare-Font/archare.ttf);
+}
+
+@font-face {
+    font-family: "Awesome";
+    src: url(./Fonts/Awesome-Font-Family/AwesomeSerif-Regular.otf);
+}
+
+@font-face {
+    font-family: "Burra";
+    src: url(./Fonts/Burra-Font-Family/Burra-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url(./Fonts/Modern-Age-Font/ModernAge.otf);
+}
+
+@font-face {
+    font-family: "Joker";
+    src: url(./Fonts/Joker-Font/Gothic-Joker.ttf);
+}
+
+@font-face {
+    font-family: "rigrofe";
+    src: url(./Fonts/Rigrofe-Font/Rigrofe-Italic-BF642b85883d2fc.ttf);
+}
+
+@font-face {
+    font-family: "valorant";
+    src: url(./Fonts/VALORANT-Font/ValorantFont.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    /* font-size: clamp(3rem, 1vw, rem); */
+    /* color: white; */
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+h1 {
+
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: clamp(2rem, 2vw, 6rem);
+    background-color: transparent;
+    transition: all 0.2s linear;
+}
+
+button {
+    position: absolute;
+    z-index: 3;
+    padding: 1rem 2rem;
+    background-color: bisque;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    /* font-size: clamp(1rem, 1vw, 1.5rem); */
+    cursor: pointer;
+    transition: all 0.2s linear;
+    border-radius: 2rem;
+}
+
+button:active {
+    scale: 0.95;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+@use "fonts";
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    display: none;
+    font-size: clamp(3rem, 2.5vw, 4rem);
+
+}
+
+button{
+    padding: 1rem 2rem;
+    background-color:bisque;
+    color: black;
+    border:none;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    cursor: pointer;
+    transition: all 0.5s linear;
+    border-radius: 2rem;
+    &:active{
+        scale: 0.95;
+
+    }
+}
