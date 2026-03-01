@@ -20,3 +20,11 @@ Screenshot:
   <img src="./Random%20Quote%20Generater/screenshot.png" width="500" style="border-radius:10px;" />
 </p>
 
+### Piyano
+Folder: `Piyano/`  
+Live Link: https://subhamku360.github.io/JS-New-Styles/Piyano/
+Screenshot:  
+<p align="start">
+  <img src="./Piyano/screenshot.png" width="500" style="border-radius:10px;" />
+</p>
+
