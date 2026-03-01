@@ -25,7 +25,9 @@ body {
   max-width: var(--max-width);
   background-color: var(--bg-color);
   color: var(--text-color);
+  over-flow:hidden;
 }
+
 
 img,
 picture,
