@@ -36,6 +36,9 @@ svg {
   max-width: 100%;
 }
 
+.container {
+  overflow: hidden;
+}
 .container .Display {
   position: absolute;
   left: 50%;
