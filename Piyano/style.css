@@ -17,6 +17,7 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -25,9 +26,9 @@ body {
   max-width: var(--max-width);
   background-color: var(--bg-color);
   color: var(--text-color);
-  over-flow:hidden;
+  overflow-x: hidden;
+  margin-inline: auto;
 }
-
 
 img,
 picture,
@@ -39,7 +40,9 @@ svg {
 }
 
 .container {
-  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 .container .Display {
   position: absolute;
@@ -47,7 +50,7 @@ svg {
   top: 20%;
   transform: translateX(-50%);
   height: 150px;
-  width: 1000px;
+  width: min(1000px, 92vw);
   border: 2px solid black;
   display: flex;
   justify-content: center;
@@ -68,8 +71,10 @@ svg {
   background-color: black;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 .container .bottom-container .buttons {
+  position: relative;
   display: flex;
   height: 98%;
   width: 98%;
@@ -95,9 +100,7 @@ svg {
   cursor: pointer;
 }
 .container .bottom-container .buttons .white span {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -110,9 +113,7 @@ svg {
   background-image: linear-gradient(to bottom, #fff 0%, #eee 100%);
 }
 .container .bottom-container .buttons .black {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: pointer;
   font-weight: 700;
   position: absolute;
@@ -145,4 +146,6 @@ svg {
 .container .bottom-container .buttons .blackActive {
   box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
   background-image: linear-gradient(to bottom, #000, #434343);
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
