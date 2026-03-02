@@ -38,7 +38,7 @@ Screenshot:
 
 ### Pinterest Clone
 Folder: `Pinterest Clone/`  
-Live Link: https://subhamku360.github.io/JS-New-Styles/Pinterest%20Clone/
+Live Link: https://subhamku360.github.io/JS-New-Styles/Pinterest%20Clone/index.html
 Screenshot:  
 <p align="start">
   <img src="./Pinterest%20Clone/screenshot.png" width="500" style="border-radius:10px;" />
