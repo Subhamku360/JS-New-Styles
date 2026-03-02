@@ -28,3 +28,11 @@ Screenshot:
   <img src="./Piyano/screenshot.png" width="500" style="border-radius:10px;" />
 </p>
 
+### File Upload Method
+Folder: `File Upload Method/`  
+Live Link: https://subhamku360.github.io/JS-New-Styles/File%20Upload%20Method/
+Screenshot:  
+<p align="start">
+  <img src="./File%20Upload%20Method/screenshot.png" width="500" style="border-radius:10px;" />
+</p>
+
