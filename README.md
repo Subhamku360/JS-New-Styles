@@ -44,3 +44,7 @@ Screenshot:
   <img src="./Pinterest%20Clone/screenshot.png" width="500" style="border-radius:10px;" />
 </p>
 
+### Reels Layout
+Folder: `Reels Layout/`  
+Live Link: https://subhamku360.github.io/JS-New-Styles/Reels%20Layout/
+
