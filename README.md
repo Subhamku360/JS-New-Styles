@@ -46,5 +46,9 @@ Screenshot:
 
 ### Reels Layout
 Folder: `Reels Layout/`  
-Live Link: https://subhamku360.github.io/JS-New-Styles/Reels%20Layout/
+Live Link: https://subhamku360.github.io/JS-New-Styles/Reels%20Layout/index.html
+Screenshot:  
+<p align="start">
+  <img src="./Reels%20Layout/image.png" width="500" style="border-radius:10px;" />
+</p>
 
