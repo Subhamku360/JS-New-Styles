@@ -56,8 +56,8 @@ Screenshot:
 Folder: `SpotLight Effect/`  
 Live Link: https://subhamku360.github.io/JS-New-Styles/SpotLight%20Effect/index.html
 Video File: [SpotLight Effect.mp4](./SpotLight%20Effect/SpotLight%20Effect.mp4)  
-Project Video:  
+Project ScreenShot:  
 <p align="start">
-  <video src="./SpotLight%20Effect/SpotLight%20Effect.mp4" width="500" controls></video>
+  <img src="./SpotLight%20Effect/screenshot.png" width="500" style="border-radius:10px;" />
 </p>
 
