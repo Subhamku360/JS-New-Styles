@@ -61,3 +61,10 @@ Project ScreenShot:
   <img src="./SpotLight%20Effect/screenshot.png" width="500" style="border-radius:10px;" />
 </p>
 
+### Spotlight with Matrix Transition
+Folder: `Spotlight with Matrix Transition/`  
+Live Link: https://subhamku360.github.io/JS-New-Styles/Spotlight%20with%20Matrix%20Transition/
+Screenshot:  
+<p align="start">
+  <img src="./Spotlight%20with%20Matrix%20Transition/screenshot.png" width="500" style="border-radius:10px;" />
+</p>

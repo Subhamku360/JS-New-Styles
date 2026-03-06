@@ -1,0 +1,164 @@
+*,
+*::before
+,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --x:50px;
+    --y:50px;
+
+}
+html{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    min-width: 100vw;
+    background-color: black;
+    color: white;
+    overflow-x:hidden;
+
+}
+
+#container{
+
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top:3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#container>h1{
+    font-size:5rem;
+    background-image:url("./gradient-1772798462503.png");
+    background-size:cover;
+    background-position:center;
+    color: transparent;
+    -webkit-background-clip:text;
+    background-clip:text;
+
+}
+
+#container>p{
+    font-size: 1.5rem;
+}
+
+#gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+#gridContainer .card{
+    height:200px;
+    width:300px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:1rem;
+
+
+    border:2px solid transparent;
+
+    background:
+        linear-gradient(#333,#333) padding-box,
+        linear-gradient(135deg,rgba(255,255,255,0.6),rgba(255,255,255,0.1)) border-box;
+
+    backdrop-filter:blur(10px);
+}
+#gridContainer .card{
+    height:200px;
+    width:300px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:.5rem;
+
+    border:1.5px solid transparent;
+
+    background:
+        linear-gradient(#333,#333) padding-box,
+        linear-gradient(135deg,rgba(255,255,255,0.6),rgba(255,255,255,0.1)) border-box;
+
+    backdrop-filter:blur(5px);
+    gap: 1rem;
+    transition: all 0.2s linear;
+}
+
+.card>h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.card p{
+    font-size: 1rem;
+}
+
+.card:hover{
+    scale: 1.1;
+}
+
+#Overlay{
+    position: absolute;
+    top: 0;
+    cursor: none;
+    height: 110%;
+    pointer-events: none;
+    width: 100%;
+    background:radial-gradient(circle 150px at var(--x) var(--y) ,rgba(0, 0, 0, 0) 0%,rgb(0, 0, 0,0.99) 100%);
+}
+
+#matix-container{
+    margin-top: 1.5rem;
+    height: auto;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#matix-container h2{
+    padding: 1rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(3, 214, 3);
+    font-family:'Courier New', Courier, monospace;
+}
+#matix-container h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    background-clip: text;
+    color: transparent;
+    background-image: url("gradient.png");
+    font-family:'Courier New', Courier, monospace;
+}
+#matix-container p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem;
+    color: green;
+
+
+}
