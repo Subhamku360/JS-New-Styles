@@ -52,12 +52,12 @@ Screenshot:
   <img src="./Reels%20Layout/image.png" width="500" style="border-radius:10px;" />
 </p>
 
-### Color Space
-Folder: `Color Space/`  
-Live Link: https://subhamku360.github.io/JS-New-Styles/Color%20Space/index.html
-
-VideoShot:  
+### SpotLight Effect
+Folder: `SpotLight Effect/`  
+Live Link: https://subhamku360.github.io/JS-New-Styles/SpotLight%20Effect/index.html
+Video File: [SpotLight Effect.mp4](./SpotLight%20Effect/SpotLight%20Effect.mp4)  
+Project Video:  
 <p align="start">
-  <video src="./Color%20Space/video.mp4" width="500" style="border-radius:10px;" ></video>
+  <video src="./SpotLight%20Effect/SpotLight%20Effect.mp4" width="500" controls></video>
 </p>
 
