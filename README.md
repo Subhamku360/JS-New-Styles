@@ -58,6 +58,6 @@ Live Link: https://subhamku360.github.io/JS-New-Styles/Color%20Space/index.html
 
 VideoShot:  
 <p align="start">
-  <video src="./Color%20Space/gradient-1772798462503.png" width="500" style="border-radius:10px;" ></video>
+  <video src="./Color%20Space/video.mp4" width="500" style="border-radius:10px;" ></video>
 </p>
 
