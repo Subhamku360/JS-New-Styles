@@ -52,3 +52,12 @@ Screenshot:
   <img src="./Reels%20Layout/image.png" width="500" style="border-radius:10px;" />
 </p>
 
+### Color Space
+Folder: `Color Space/`  
+Live Link: https://subhamku360.github.io/JS-New-Styles/Color%20Space/index.html
+Video: [Color Space.mp4](./Color%20Space/Color%20Space.mp4)  
+Screenshot:  
+<p align="start">
+  <img src="./Color%20Space/gradient-1772798462503.png" width="500" style="border-radius:10px;" />
+</p>
+
