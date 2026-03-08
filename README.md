@@ -71,7 +71,7 @@ Screenshot:
 
 ### Card Hover Animation
 Folder: `Card_Hover_Animation/`  
-Live Link: https://subhamku360.github.io/JS-New-Styles/Card_Hover_Animation/
+Live Link: [https://subhamku360.github.io/JS-New-Styles/Card_Hover_Animation/](https://js-new-styles-7q67.vercel.app/)
 Screenshot:  
 <p align="start">
   <img src="./Card_Hover_Animation/screenshot.png" width="500" style="border-radius:10px;" />
